@@ -2,7 +2,7 @@ import express from 'express'
 import db from './config/db.js'
 import routes from './routes/index.js'
 import { PORT } from './config/environment.js'
-const PORT = PORT || 3005
+ PORT = PORT || 3005
 import dotenv from 'dotenv';
 import cors from 'cors';
 
